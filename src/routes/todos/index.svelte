@@ -25,7 +25,7 @@
 		class="new"
 		action="/todos"
 		method="post"
-		//use:enhance={{
+		// use:enhance={{
 		//	result: async ({ form }) => {
 		//		form.reset();
 		//	}
