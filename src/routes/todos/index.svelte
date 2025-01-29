@@ -25,11 +25,6 @@
 		class="new"
 		action="/todos"
 		method="post"
-		// use:enhance={{
-		//	result: async ({ form }) => {
-		//		form.reset();
-		//	}
-		//}}
 	>
 		<input name="text" aria-label="Add todo" placeholder="+ tap to add a todo" />
 	</form>
