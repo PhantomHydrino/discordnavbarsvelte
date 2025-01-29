@@ -4,7 +4,7 @@
 
 
 
-<div class="fixed bottom-0 left-0 w-16 flex flex-col bg-gray-900 drop-shadow-3xl justify-center hover:h-[80%]">
+<div class="fixed h-[35%] bottom-0 m-2 p-2 left-0 flex flex-col border-[1.5px] border-green-700 bg-gray-900 drop-shadow-3xl rounded-3xl justify-center hover:h-[80%] transiton-all ease-linear duration-150">
     
     <SideBarIcon icon ="ant-design:home-filled" text="tooltips"></SideBarIcon>
     <SideBarIcon icon ="el:fire" text="tooltips"></SideBarIcon>
