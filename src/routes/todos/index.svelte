@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { enhance } from 'svelte-forms-lib';
+	//import { enhance } from 'svelte-forms-lib';
 	import { scale } from 'svelte/transition';
 	import { flip } from 'svelte/animate';
 
@@ -25,11 +25,11 @@
 		class="new"
 		action="/todos"
 		method="post"
-		use:enhance={{
-			result: async ({ form }) => {
-				form.reset();
-			}
-		}}
+		//use:enhance={{
+		//	result: async ({ form }) => {
+		//		form.reset();
+		//	}
+		//}}
 	>
 		<input name="text" aria-label="Add todo" placeholder="+ tap to add a todo" />
 	</form>
