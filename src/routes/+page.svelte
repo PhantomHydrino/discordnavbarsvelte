@@ -5,6 +5,10 @@
     import "../app.css";
 </script>
 
+<svelte:head>
+	<title>Discord Nav Concept</title>
+</svelte:head>
+
 <div class="page-container">
     <MainScreen/>
     <SideBar/>
