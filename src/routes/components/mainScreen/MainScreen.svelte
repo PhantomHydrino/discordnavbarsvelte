@@ -2,7 +2,7 @@
     import Icon from "@iconify/svelte";
 </script>
 
-<div class="flex h-[100vh] w-[100vw] bg-gray-800 justify-center items-center">
+<div class="flex h-[100vh] w-[100vw] bg-gray-800 justify-center items-center overflow-y-hidden overflow-x-hidden">
     <Icon
         icon={"simple-icons:discord"}
         class="text-gray-950 text-[30vh] drop-shadow-lg"
