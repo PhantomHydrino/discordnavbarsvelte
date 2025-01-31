@@ -17,5 +17,7 @@
 <style>
     .page-container {
       display: flex;  /* Flexbox to align the MainScreen and SideBar */
+      overflow-y: hidden;
+      overflow-x: hidden;
     }
 </style>
